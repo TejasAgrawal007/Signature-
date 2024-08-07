@@ -1,0 +1,42 @@
+* {
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+
+.block, input, select, button{
+    width: 50%;  
+}
+
+.form-control, select{
+    padding: 5px 70px;
+}
+
+.top>.block{
+    margin: 10px;
+}
+
+.block> p{
+    margin: 10px;
+}
+
+.bottom>button{
+    margin: 10px;
+}
+
+.canvas {
+    border: 2px solid #000;
+}
